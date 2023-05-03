@@ -136,7 +136,7 @@ GameObject:
   - component: {fileID: 519420029}
   m_Layer: 0
   m_Name: Main Camera
-  m_TagString: MainCamera
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -200,7 +200,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 519420028}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 4.5, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -309,7 +309,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8419582381186948312, guid: 6ed08eb4ca3a0e049bf9170bb909cbca, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.2480931
+      value: 1.75
       objectReference: {fileID: 0}
     - target: {fileID: 8419582381186948312, guid: 6ed08eb4ca3a0e049bf9170bb909cbca, type: 3}
       propertyPath: m_LocalPosition.z
@@ -388,12 +388,16 @@ PrefabInstance:
       value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6454366823932546447, guid: 1a4b8734f2ac610439ca501a26d0648f, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 20
+      objectReference: {fileID: 0}
+    - target: {fileID: 6454366823932546447, guid: 1a4b8734f2ac610439ca501a26d0648f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6454366823932546447, guid: 1a4b8734f2ac610439ca501a26d0648f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.5
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6454366823932546447, guid: 1a4b8734f2ac610439ca501a26d0648f, type: 3}
       propertyPath: m_LocalPosition.z
