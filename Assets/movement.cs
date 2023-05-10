@@ -7,7 +7,7 @@ public class movement : MonoBehaviour
     public KeyCode moveDown;
     public KeyCode moveUp;
     public KeyCode moveLeft;
-    public KeyCode MoveRight;
+    public KeyCode moveRight;
 
     // Start is called before the first frame update
     void Start()
@@ -18,10 +18,10 @@ public class movement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if ()
-        {
+        //if ()
+        //{
 
-        }
+        //}
 
 
         if (Input.GetKeyDown(moveUp))
@@ -36,7 +36,7 @@ public class movement : MonoBehaviour
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(-5, 0);
         }
-        if (Input.GetKeyDown(MoveRight))
+        if (Input.GetKeyDown(moveRight))
         {
             GetComponent<Rigidbody2D>().velocity = new Vector2(5, 0);
         }
