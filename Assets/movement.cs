@@ -26,19 +26,19 @@ public class movement : MonoBehaviour
 
         if (Input.GetKeyDown(moveUp))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 5);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(0, 10);
         }
         if (Input.GetKeyDown(moveDown))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(0, -5);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(0, -10);
         }
         if (Input.GetKeyDown(moveLeft))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(-5, 0);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(-10, 0);
         }
         if (Input.GetKeyDown(moveRight))
         {
-            GetComponent<Rigidbody2D>().velocity = new Vector2(5, 0);
+            GetComponent<Rigidbody2D>().velocity = new Vector2(10, 0);
         }
     }
 }
